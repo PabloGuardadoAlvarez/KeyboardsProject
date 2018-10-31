@@ -10,13 +10,23 @@ import UIKit
 
 class General: UIViewController {
 
+    @IBOutlet weak var botonEmpezar: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    
+   @IBAction private func showKeyboards(){
+        
+        let keyboards = Principal()
+        let navigationController = UINavigationController(rootViewController: keyboards)
+        navigationController.modalTransitionStyle = .coverVertical
+        present(navigationController,animated: true, completion:nil)
+    }
 
-    override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning() {   
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }

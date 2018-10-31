@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		731833202177537300D75E84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7318331F2177537300D75E84 /* AppDelegate.swift */; };
-		731833222177537300D75E84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731833212177537300D75E84 /* ViewController.swift */; };
-		731833252177537300D75E84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 731833232177537300D75E84 /* Main.storyboard */; };
 		731833272177537400D75E84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 731833262177537400D75E84 /* Assets.xcassets */; };
 		7318332A2177537400D75E84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 731833282177537400D75E84 /* LaunchScreen.storyboard */; };
+		731833372177558300D75E84 /* Principal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731833352177558300D75E84 /* Principal.swift */; };
+		731833382177558300D75E84 /* Principal.xib in Resources */ = {isa = PBXBuildFile; fileRef = 731833362177558300D75E84 /* Principal.xib */; };
+		7318333C217756AE00D75E84 /* TVCKeyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7318333A217756AE00D75E84 /* TVCKeyboards.swift */; };
+		7318333D217756AE00D75E84 /* TVCKeyboards.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7318333B217756AE00D75E84 /* TVCKeyboards.xib */; };
+		73183340217757F600D75E84 /* General.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7318333E217757F600D75E84 /* General.swift */; };
+		73183341217757F600D75E84 /* General.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7318333F217757F600D75E84 /* General.xib */; };
+		73183344217F719B00D75E84 /* Celdas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73183343217F719B00D75E84 /* Celdas.swift */; };
+		73ACA9B621889BB00046D5A6 /* CeldasSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73ACA9B521889BB00046D5A6 /* CeldasSwitch.swift */; };
+		73ACA9B921889DF70046D5A6 /* TVCKeyboardsSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73ACA9B721889DF70046D5A6 /* TVCKeyboardsSwitch.swift */; };
+		73ACA9BA21889DF70046D5A6 /* TVCKeyboardsSwitch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73ACA9B821889DF70046D5A6 /* TVCKeyboardsSwitch.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7318331C2177537300D75E84 /* KeyBoards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyBoards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7318331F2177537300D75E84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		731833212177537300D75E84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		731833242177537300D75E84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		731833262177537400D75E84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		731833292177537400D75E84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7318332B2177537400D75E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		731833352177558300D75E84 /* Principal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Principal.swift; sourceTree = "<group>"; };
+		731833362177558300D75E84 /* Principal.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Principal.xib; sourceTree = "<group>"; };
+		7318333A217756AE00D75E84 /* TVCKeyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCKeyboards.swift; sourceTree = "<group>"; };
+		7318333B217756AE00D75E84 /* TVCKeyboards.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TVCKeyboards.xib; sourceTree = "<group>"; };
+		7318333E217757F600D75E84 /* General.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = General.swift; sourceTree = "<group>"; };
+		7318333F217757F600D75E84 /* General.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = General.xib; sourceTree = "<group>"; };
+		73183343217F719B00D75E84 /* Celdas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Celdas.swift; sourceTree = "<group>"; };
+		73ACA9B521889BB00046D5A6 /* CeldasSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldasSwitch.swift; sourceTree = "<group>"; };
+		73ACA9B721889DF70046D5A6 /* TVCKeyboardsSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCKeyboardsSwitch.swift; sourceTree = "<group>"; };
+		73ACA9B821889DF70046D5A6 /* TVCKeyboardsSwitch.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TVCKeyboardsSwitch.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,38 @@
 		7318331E2177537300D75E84 /* KeyBoards */ = {
 			isa = PBXGroup;
 			children = (
+				73183342217F716500D75E84 /* Objetos */,
+				731833392177568B00D75E84 /* Celdas */,
 				7318331F2177537300D75E84 /* AppDelegate.swift */,
-				731833212177537300D75E84 /* ViewController.swift */,
-				731833232177537300D75E84 /* Main.storyboard */,
 				731833262177537400D75E84 /* Assets.xcassets */,
 				731833282177537400D75E84 /* LaunchScreen.storyboard */,
 				7318332B2177537400D75E84 /* Info.plist */,
+				731833352177558300D75E84 /* Principal.swift */,
+				731833362177558300D75E84 /* Principal.xib */,
+				7318333E217757F600D75E84 /* General.swift */,
+				7318333F217757F600D75E84 /* General.xib */,
 			);
 			path = KeyBoards;
+			sourceTree = "<group>";
+		};
+		731833392177568B00D75E84 /* Celdas */ = {
+			isa = PBXGroup;
+			children = (
+				7318333A217756AE00D75E84 /* TVCKeyboards.swift */,
+				7318333B217756AE00D75E84 /* TVCKeyboards.xib */,
+				73ACA9B721889DF70046D5A6 /* TVCKeyboardsSwitch.swift */,
+				73ACA9B821889DF70046D5A6 /* TVCKeyboardsSwitch.xib */,
+			);
+			path = Celdas;
+			sourceTree = "<group>";
+		};
+		73183342217F716500D75E84 /* Objetos */ = {
+			isa = PBXGroup;
+			children = (
+				73183343217F719B00D75E84 /* Celdas.swift */,
+				73ACA9B521889BB00046D5A6 /* CeldasSwitch.swift */,
+			);
+			path = Objetos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +162,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73ACA9BA21889DF70046D5A6 /* TVCKeyboardsSwitch.xib in Resources */,
+				73183341217757F600D75E84 /* General.xib in Resources */,
 				7318332A2177537400D75E84 /* LaunchScreen.storyboard in Resources */,
+				731833382177558300D75E84 /* Principal.xib in Resources */,
+				7318333D217756AE00D75E84 /* TVCKeyboards.xib in Resources */,
 				731833272177537400D75E84 /* Assets.xcassets in Resources */,
-				731833252177537300D75E84 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +178,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				731833222177537300D75E84 /* ViewController.swift in Sources */,
+				7318333C217756AE00D75E84 /* TVCKeyboards.swift in Sources */,
+				731833372177558300D75E84 /* Principal.swift in Sources */,
+				73183344217F719B00D75E84 /* Celdas.swift in Sources */,
+				73183340217757F600D75E84 /* General.swift in Sources */,
 				731833202177537300D75E84 /* AppDelegate.swift in Sources */,
+				73ACA9B621889BB00046D5A6 /* CeldasSwitch.swift in Sources */,
+				73ACA9B921889DF70046D5A6 /* TVCKeyboardsSwitch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		731833232177537300D75E84 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				731833242177537300D75E84 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		731833282177537400D75E84 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -7,3 +7,18 @@
 //
 
 import Foundation
+class CeldasSwitch {
+    
+    var name :String!
+    var switches :Bool!
+    
+    
+    
+    init(name:String,switches:Bool) {
+        self.name=name
+        self.switches=switches
+        
+    }
+    
+    
+}

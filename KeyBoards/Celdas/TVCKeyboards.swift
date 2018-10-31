@@ -10,6 +10,8 @@ import UIKit
 
 class TVCKeyboards: UITableViewCell {
 
+    @IBOutlet weak var lblCelda: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
